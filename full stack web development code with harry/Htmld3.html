@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+<!-- Label::By using label tag we just click on name and we redirected to box where we write our response::: -->
+<!-- Div:div tag is used to divide the two inline elements:: -->
+<!-- div is a block elements and input is a inline element:: -->
+
+<body>
+    <h2>This is a form tutorial::..</h2>
+    <form action="backend.php">
+        <label for="name" >Name</label>
+        <div>
+            <input type="text" name="my name" id="name">
+        </div>
+        <br>
+      <label for="date">Date</label>
+        <div>
+            <input type="date" name="my date" id="Date">
+        </div>
+        <br>
+      <label for="email">Email</label>
+        <div>
+          <input type="email" name="" id="email">
+        </div>
+        <br>
+
+        <div>
+            Are you a student:<input type="checkbox" name="my checkbox" checked>
+        </div>
+        <br>
+
+        <div>
+            Choose color<input type="color" name="my color" id="">
+        </div>
+        <br>
+        <label for="car">cars</label>
+        
+        <div>
+           
+           <select name="my cars" id="car">
+               <option value="Indica" >indica</option>
+              <option value="Fortuner" selected>fortuner</option>
+              <option value="BMW">BMW</option>
+              <option value="BMW">BMW</option>
+            </select>
+        </div>
+        <br>
+       
+
+        
+        <div>
+            bonus:<input type="number" name="my bonus" id="">
+        </div>
+        <br>
+
+        <div>
+            Gender------ male:<input type="radio" name="my radio" id="my gender"> Female: <input type="radio"
+                name="my radio" id="my gender">
+        </div>
+        <br>
+        <div>
+        write about yourself::<textarea name="myTextarea" i cols="20" rows="20"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="submit now ">
+        
+       
+       
+            <input type="reset" value="reset now">
+        
+    </div>
+    </form>
+</body>
+
+</html>
